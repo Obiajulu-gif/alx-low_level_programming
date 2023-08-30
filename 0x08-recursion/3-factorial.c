@@ -18,4 +18,6 @@ return (-1);
 
 next = factorial(n - 1);
 return (n * next);
+_putchar('\n');
+
 }
