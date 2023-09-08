@@ -1,20 +1,17 @@
 #include "main.h"
-/**
-*_memset - The _memset() function fills
-* the first n bytes of the memory area
-* pointed to by s with the constant byte b
-*@s:target
-*@b: constant byte
-*@n:number of byte
-*Return: returns new value of target
-*/
 
-char *_memset(char *s, char b, unsigned int n)
+/**
+ * malloc_checked - allocates memory using malloc, exit(98) if it fails
+ * @b: size of the memory block to be allocated
+ *
+ * Return: pointer to the address of the memory block
+ */
+void *malloc_checked(unsigned int b)
 {
-    while (n)
-    {
-        s[n - 1] = b;
-        n--;
-    }
-    return (s);
+    void *block;
+
+    block = malloc(b);
+    if (block == NULL)
+        exit(98);
+    return (block);
 }
