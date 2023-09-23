@@ -1,7 +1,7 @@
 # Ignore object files and executables
 *.o
 *.out
-
+*.exe
 #Ignore main.c as instructed by ALX
 *main.c
 
