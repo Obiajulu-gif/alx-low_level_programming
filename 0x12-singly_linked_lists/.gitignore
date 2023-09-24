@@ -9,7 +9,7 @@
 /build/
 
 # Ignore IDE-specific files
-.vscode/
+*.vscode/
 .idea/
 
 # Ignore system-specific files or directories
