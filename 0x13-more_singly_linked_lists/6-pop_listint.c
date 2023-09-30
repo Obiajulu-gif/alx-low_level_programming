@@ -13,7 +13,7 @@ int n;
 
 if (*head == NULL)
 {
-    return (0);
+return (0);
 }
 
 temp = *head;
