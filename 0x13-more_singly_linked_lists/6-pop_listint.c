@@ -5,8 +5,7 @@ include "lists.h"
  * @head: pointer to the head node
  * Return: the head node's data (n)
  */
-int
-pop_listint(listint_t **head)
+int pop_listint(listint_t **head)
 {
 listint_t *temp;
 int n;
