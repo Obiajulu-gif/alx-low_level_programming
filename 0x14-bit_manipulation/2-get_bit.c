@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * get_bit - get the value of a bit at a given index
  * @n: number whose bit value we want to check
