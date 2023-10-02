@@ -1,10 +1,16 @@
 #include "main.h"
 
-void print_binary(unsigned long int n){
-    if (n > 1)
-    {
-        print_binary(n / 2);
-    }
+/**
+ * print_binary - prints the binary representation of a number.
+ * @n: number to be converted
+ * Return: give out a binary number
+ */
+void print_binary(unsigned long int n)
+{
+if (n > 1)
+{
+print_binary(n / 2);
+}
 
-    _putchar((n % 2) + '0');
+_putchar((n % 2) + '0');
 }
