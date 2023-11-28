@@ -2,4 +2,4 @@
 str = "Python is an interpreted, interactive, object-oriented programming\
  language that combines remarkable power with very clear syntax"
 str = str.split("object-oriented programming")[1].split(" ")[2] + "object-oriented programming with Python"
-print(str.removeprefix("that"))
+print(str[4:])
