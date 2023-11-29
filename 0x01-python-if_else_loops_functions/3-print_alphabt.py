@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for char in range(97, 123):
         if char != 'q' and char != 'e':
-            print(char, end="")
+            print("{}".format(char), end="")
