@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def main():
     argc = len(sys.argv)
     calc = argc - 1
