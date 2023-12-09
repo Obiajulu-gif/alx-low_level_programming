@@ -10,7 +10,7 @@ def roman_to_int(roman_string):
         rs = roman_dict[roman_string[i]]
         if i > 0:
             if roman_dict[roman_string[i]] > roman_dict[roman_string[i - 1]]:
-                num += rm - 2 * roman_dict[roman_string[i - 1]]
+                num += rs - 2 * roman_dict[roman_string[i - 1]]
         else:
             num += roman_dict[roman_string[i]]
     return num
