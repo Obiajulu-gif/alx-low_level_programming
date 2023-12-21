@@ -3,7 +3,7 @@
 
 
 class Square:
-    """"""
+    """this is a square class"""
     def __init__(self, size=0):
         """__init__ method
         Args:
@@ -15,7 +15,7 @@ class Square:
     def size(self):
         """return the value of size"""
         return self.__size
-    
+
     @size.setter
     def size(self, value):
         """check and set the value to size"""
@@ -24,7 +24,7 @@ class Square:
         if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-    
+
     def area(self):
         """Calculate the area of a square"""
         return self.__size * self.__size
