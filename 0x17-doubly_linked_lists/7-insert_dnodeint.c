@@ -28,8 +28,9 @@ if (*h != NULL)
 else
 {
 dlistint_t *current = *h;
-for (unsigned int i = 0; current != NULL && i < idx - 1; i++)
-current = current->next;
+unsigned int i;
+for (i = 0; current != NULL && i < idx - 1; i++)
+    current = current->next;
 
 if (current == NULL)
 {
